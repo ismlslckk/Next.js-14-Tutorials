@@ -33,6 +33,7 @@
      - localhost:3000/docs/feature1/example1/detail1/.............
 
  * slug:string[] will pass into searchParams from next.js 
+ * we'll see an exception if visit localhost:3000/docs url , to be able to also render same page.tsx we need to replace double square brackets such as docs/[[...slug]]/page.tsx
 
 
 
