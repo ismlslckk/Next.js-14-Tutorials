@@ -10,3 +10,8 @@
  * Next js has a file system based routing mechanism where the URL
  * The URL paths accessible in the browser are defined by files and folders within your code base
 
+#Routing Conventions
+ * All routes must be placed inside the app folder 
+ * Every file that represents a route should be named page.js or page.tsx
+ * Every folder corresponds to a part segment in the browser URL
+
