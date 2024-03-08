@@ -15,3 +15,9 @@
  * Every file that represents a route should be named page.js or page.tsx
  * Every folder corresponds to a part segment in the browser URL
 
+#Nested Routes
+ * routes follow nested routes with the same convention through folder name
+
+#Dynamic Routes
+ * [productId] / page.tsx : localhost:3000/6 , we can catch productId from the searchParams in page.tsx
+
