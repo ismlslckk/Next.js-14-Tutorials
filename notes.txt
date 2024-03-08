@@ -25,3 +25,28 @@
  * products / [productId] / reviewws / [reviewId] / page.tsx : localhost:3000/6/ , 
    we can catch productId and reviewId from the searchParams in review page.tsx
 
+#Catch all Segments
+ * docs/[...slug]/page.tsx : this will match page.tsx for below urls;
+     - localhost:3000/docs/feature1
+     - localhost:3000/docs/feature1/example1
+     - localhost:3000/docs/feature1/example1/detail1
+     - localhost:3000/docs/feature1/example1/detail1/.............
+
+ * slug:string[] will pass into searchParams from next.js 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
