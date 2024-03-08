@@ -36,6 +36,11 @@
  * we'll see an exception if visit localhost:3000/docs url , to be able to also render same page.tsx we need to replace double square brackets such as docs/[[...slug]]/page.tsx
 
 
+#Not Found Page
+ * next js will redirect the user to 404 page automatically if the url does not match and folder path, we can create not-found.tsx file to 
+   render specific content
+ - not-found.tsx can take place under every single folder. 
+
 
 
 
