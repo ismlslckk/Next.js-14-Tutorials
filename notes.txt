@@ -13,6 +13,7 @@
 #Routing Conventions
  * All routes must be placed inside the app folder 
  * Every file that represents a route should be named page.js or page.tsx
+ * every page.tsx should definen as export default component_name 
  * Every folder corresponds to a part segment in the browser URL
 
 #Nested Routes
