@@ -19,5 +19,9 @@
  * routes follow nested routes with the same convention through folder name
 
 #Dynamic Routes
- * [productId] / page.tsx : localhost:3000/6 , we can catch productId from the searchParams in page.tsx
+ * products / [productId] / page.tsx : localhost:3000/6 , we can catch productId from the searchParams in page.tsx
+
+#Nested Dynamic Routes
+ * products / [productId] / reviewws / [reviewId] / page.tsx : localhost:3000/6/ , 
+   we can catch productId and reviewId from the searchParams in review page.tsx
 
