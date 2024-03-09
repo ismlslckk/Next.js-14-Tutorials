@@ -97,6 +97,13 @@
  * Template and layout can used at the same time , in this case next js renders through layout => template => page 
 
 
+#Loading
+ * it should defined exact name "loading.tsx"
+ * nextjs allows the creation of shared layouts that remain interactive while new route segments are loading this means that users can continue
+
+#Error Handling
+ * 
+
 
 
 
