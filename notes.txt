@@ -100,9 +100,16 @@
 #Loading
  * it should defined exact name "loading.tsx"
  * nextjs allows the creation of shared layouts that remain interactive while new route segments are loading this means that users can continue
+ * it can define for every route folder
 
 #Error Handling
- * 
+ * it can define for every route folder
+ * this should render client side
+ * error bubble up to the root level as long as there is no error.tsx for each level of routing
+ * error.tsx can't catch the error if the error occur in layout.tsx, so we need to move error.tsx one more level up route 
+
+#Recover Error Handling
+ * nextjs pass reset function into props of error component to be able to re-render the page 
 
 
 
