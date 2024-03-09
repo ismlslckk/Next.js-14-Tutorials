@@ -128,6 +128,14 @@
       * Each slot of your dashboard can essentially function as a mini application complete with its own
          navigation and State Management
 
+    #Unmatched Routes
+      * In the case of navigation within the UI nextjs retains the previously active state of a slot regardless of changes in the URL ,
+        it means that other slots not effected by other slot's actions.
+      * In the case of a page reload next sh immediately searches for a default.tsx file within each unmatched slot
+      * If this default.tsx file is missing in any of the unmatched slots for the current route next JS will render a 404 error
+      * The default.tsx file in the nextjs serves as a fall back to render content when the framework cannot retrieve a slot's active state           from the current URL 
+      * We can mirror the same component within the default.tsx or make a custom view.
+
 
 
 
