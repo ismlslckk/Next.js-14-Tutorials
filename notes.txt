@@ -61,7 +61,17 @@
  * Every folder can have a layout, next js applies the layouts from bottom to top.
  * layout should define as layout.tsx and should exported as default.
 
-
+#Routing Metadata
+ * metadata can defined every page.tsx file with the exact name "metadata" exported variable.
+      #Configure Metadata
+        * export a static metadata object 
+        * export a dynamic generate metadata function
+      #Metadata Rules
+        * Both layout.tsx and page.tsx files can export metadata. if defined in layout it applies to all pages in that layout but if    
+          defined in a page it applies only to that page metadata 
+* Metadata is read in order from the root level down to the final page level
+* When there is metadata in multiple places for the same route they get combined but page metadata will replace layout metadata if they have 
+    the same propertie
 
 
 
