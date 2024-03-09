@@ -57,6 +57,10 @@
  * we can access below definitions pages without auth path.
  * (auth) / login,register,forgot-password
 
+#Layouts
+ * Every folder can have a layout, next js applies the layouts from bottom to top.
+ * layout should define as layout.tsx and should exported as default.
+
 
 
 
