@@ -74,6 +74,15 @@
     the same propertie
 
 
+#Title Metadata
+ * title metadata can defined as an object which consists absolute,default,template fields.
+ * if default field defined in layout.tsx , it is automatically applies all the pages underneath itself. so we can use default field as title
+   for all pages if pages don't have a itselft title.
+ * if template field defined in layout.tsx, it is automatically applies all the pages underneath itself.
+   i.e template="%s | World" is an layout.tsx title and title="New" is an page.tsx title , "New World" would be final title in page.tsx.
+   template override default field.
+ * if absolute defined in page.tsx as title , this will override layout.tsx metadata and would be final title.
+
 
 
 
