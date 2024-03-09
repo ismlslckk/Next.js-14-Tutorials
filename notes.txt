@@ -112,7 +112,21 @@
  * nextjs pass reset function into props of error component to be able to re-render the page 
 
 
+#Parallel Routes
+ * Parallel routes are an advanced routing mechanism that allows for the simultaneous rendering of multiple Pages within the same layout
+ * Parallel routes in nextjs are defined using a feature known as slots
+ * To define a slot we use the @ folder naming convention
+ * folder name should begin with @ convention
+ * Each slot is then automatically passed as a prop to its corresponding layout.tsx
+ * we can't navigate slot path , it can only available within layout.tsx
 
+    #benefits
+      * A clear benefit of parallel benefits routes is their ability to split a single layout into various slots making
+         the code more manageable
+      * Each route independently this means that each slot of your layout such as user analytics or Revenue metrics can have
+         its own loading and error States this
+      * Each slot of your dashboard can essentially function as a mini application complete with its own
+         navigation and State Management
 
 
 
