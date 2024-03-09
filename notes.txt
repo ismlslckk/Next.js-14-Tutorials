@@ -94,6 +94,7 @@
  * But with templates when a user navigates between routes that share a template a new instance of the component is mounted Dom elements   
      are recreated state is not preserved and effects are resynchronized
  * it should defined exact name "template.tsx"
+ * Template and layout can used at the same time , in this case next js renders through layout => template => page 
 
 
 
