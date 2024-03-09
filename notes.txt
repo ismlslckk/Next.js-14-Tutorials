@@ -88,6 +88,14 @@
  * replace keywords clear the route history.
 
 
+#Templates
+ * Note : Layouts don't remount shared components resulting in the performance 
+ * Templates are similar to layouts in that they wrap each child layout or page
+ * But with templates when a user navigates between routes that share a template a new instance of the component is mounted Dom elements   
+     are recreated state is not preserved and effects are resynchronized
+ * it should defined exact name "template.tsx"
+
+
 
 
 
