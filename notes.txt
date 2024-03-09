@@ -52,6 +52,11 @@
  * Sorting and grouping files in code editors
  * If you want to include an underscore in url segments you can prefix the folder name with "%5F" which is the URL encoded form of an underscore
 
+#Route Groups
+ * (folder_name) convention allows us to exclude path from the router.
+ * we can access below definitions pages without auth path.
+ * (auth) / login,register,forgot-password
+
 
 
 
