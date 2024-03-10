@@ -182,6 +182,7 @@
 #NOTES
  * To disable SSR for a specific component we can use below code snippet;
    const DynamicComponent = dynamic(() => import('../components/YourComponent'), ssr: false});
+ * Or wrap with a div and add suppresshydrationwarning prop into div props.
 
 
 
