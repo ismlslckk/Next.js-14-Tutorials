@@ -137,6 +137,16 @@
       * We can mirror the same component within the default.tsx or make a custom view.
 
 
+#Intercepting Routes
+ * it still redirect us to clicked route as usual but it renders an intercepted component till the user refresh the page.
+ * it can be usefull in the scenario where we want to show a content in a modal.
+     #conventions
+       * (.)product       => it is match with the same level route.
+       * (..)product      => it is match with the one level above route.
+       * (..)(..)product  => it is match with the two level above route.
+       * (...) product    => it is match from the root app directory level route.
+
+
 
 
 
