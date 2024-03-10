@@ -189,6 +189,13 @@
 #2
    * If we wrap a SSC component with a CSC component , it still will render as a SSC
 
+#3
+  * if we want to execute a function always on server , we should follow below convention;
+      const testFunction = () => { 
+         "use server";
+          console.log("test log");
+      }
+
 
 
 
