@@ -163,6 +163,13 @@
        * Using any HTTP method other than get method
 
 
+#Middleware
+ * it should take place with the same level src folder and named as "middleware.ts"
+ * It does this at a global level significantly enhancing features like redirection URL rewrites authentication headers and cookies
+     management and more
+ * Note : using rewrite instead of redirect allow us to use route path but render another route.
+
+
 
 
 
