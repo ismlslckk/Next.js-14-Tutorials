@@ -196,6 +196,8 @@
           console.log("test log");
       }
 
+#4
+  * we can use "revalidatePath('/products')" to invalidate the cache for specific route
 
 
 
