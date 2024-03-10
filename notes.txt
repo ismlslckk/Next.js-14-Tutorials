@@ -180,10 +180,13 @@
 
 
 #NOTES
- * To disable SSR for a specific component we can use below code snippet;
+#1
+    * To disable SSR for a specific component we can use below code snippet;
    const DynamicComponent = dynamic(() => import('../components/YourComponent'), ssr: false});
- * Or wrap with a div and add suppresshydrationwarning prop into div props.
+    * Or wrap with a div and add suppresshydrationwarning prop into div props.
 
+#2
+   * If we wrap a SSC component with a CSC component , it still will render as a SSC
 
 
 
