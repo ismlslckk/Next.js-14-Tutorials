@@ -173,3 +173,24 @@
 
 
 
+
+
+
+
+
+
+#NOTES
+ * To disable SSR for a specific component we can use below code snippet;
+   const DynamicComponent = dynamic(() => import('../components/YourComponent'), ssr: false});
+
+
+
+
+
+
+
+
+
+
+
+
