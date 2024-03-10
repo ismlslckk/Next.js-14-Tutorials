@@ -154,9 +154,13 @@
 
 #Caching In Route Handlers
  * Route handlers are cached by caching behavior default when using the get method with a response object in nextjs
- * To disable caching in nextjs we need to set below variable top of the route
-   export const dynamic = "force-dynamic";  this is set "auto" as default
  * this behavior only happens with builded version, it doesn't happen with development mode.
+     #Scenarios which disable cache by default
+       * To disable caching in nextjs we need to set below variable top of the route
+           export const dynamic = "force-dynamic";  this is set "auto" as default
+       * Using the request object with the get method
+       * Using Dynamic functions like headers() and cookies()
+       * Using any HTTP method other than get method
 
 
 
