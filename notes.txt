@@ -152,6 +152,11 @@
  * For get http request function should be "export async function GET() {}" and also should be same convention.
  * It renders route.ts if the route has both page.tsx and route.tx , to avoid this issue we can move the the file into api folder 
 
+#Caching In Route Handlers
+ * Route handlers are cached by caching behavior default when using the get method with a response object in nextjs
+ * To disable caching in nextjs we need to set below variable top of the route
+   export const dynamic = "force-dynamic";  this is set "auto" as default
+ * this behavior only happens with builded version, it doesn't happen with development mode.
 
 
 
