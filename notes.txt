@@ -147,6 +147,12 @@
        * (...) product    => it is match from the root app directory level route.
 
 
+#Route Handlers
+ * It should define exact name "route.ts"
+ * For get http request function should be "export async function GET() {}" and also should be same convention.
+ * It renders route.ts if the route has both page.tsx and route.tx , to avoid this issue we can move the the file into api folder 
+
+
 
 
 
