@@ -161,6 +161,7 @@
        * Using the request object with the get method
        * Using Dynamic functions like headers() and cookies()
        * Using any HTTP method other than get method
+       * set options for fetch method with cache:"no-store"
 
 
 #Middleware
